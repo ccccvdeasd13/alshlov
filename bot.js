@@ -8,7 +8,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`%0 النفسية`,"http://twitch.tv/Dream")
+client.user.setGame(`- سيصيبك ما أصبتني به ، فقط إنتظر .`,"http://twitch.tv/Dream")
 client.user.setStatus("dnd")
 });
 

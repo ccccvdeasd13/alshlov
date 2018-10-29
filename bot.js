@@ -12,6 +12,14 @@ client.user.setGame(`- سيصيبك ما أصبتني به ، فقط إنتظر 
 client.user.setStatus("dnd")
 });
 
+client.on('message',function(message) {
+    if(message.content.startsWith(`<@${client.user.id}>`)) {
+        message.channel.send('انقلع ولاتمنشن')
+        message.channel.send('لا تفعل المستحيل من أجل شخص لم يفعل من أجلك الممكن')
+        message.channel.send('رد تلقائي')
+    }
+});
+
 
 
 client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء

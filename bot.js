@@ -36,13 +36,6 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
 }
 });
 
-client.on('message',function(message) {
-    if(message.content.startsWith(`<@${client.user.id}>`)) {
-        message.channel.send('انقلع ولاتمنشن')
-        message.channel.send('لا تفعل المستحيل من أجل شخص لم يفعل من أجلك الممكن')
-        message.channel.send('رد تلقائي')
-    }
-});
 
 
 client.on('message', message => {
